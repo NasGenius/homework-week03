@@ -11,6 +11,7 @@ var confirmLowercase;
 // Start Password variable values: 
 
 // Special characters 
+
 character = ["!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", "\:", "\;", " < ", "=", " > ", " ? ", "@", "[", "\\", "]", " ^ ", "_", "`", "{", "|", "}", "~"];
 
 // Numeric characters
@@ -36,6 +37,7 @@ var toUpper = function (x) {
 };
 
 // creates a variable for uppercase conversion
+
 alpha2 = alpha.map(toUpper);
 
 var get = document.querySelector("#generate");
@@ -50,9 +52,11 @@ get.addEventListener("click", function () {
 function generatePassword() {
 
   // Asks for user input
+    
     enter = parseInt(prompt("How many characters would you like your password? Choose between 8 and 128"));
 
     // First if statement for user validation 
+   
     if (!enter) {
         alert("This needs a value");
     } else if (enter < 8 || enter > 128) {
@@ -60,6 +64,7 @@ function generatePassword() {
       // Validates user input
 
       // Start user input prompts
+        
         enter = parseInt(prompt("You must choose between 8 and 128"));
 
     } else {
