@@ -13,7 +13,7 @@ This application emphasizes the use of Javascript to generate a random, secure p
 
 This project has been deployed to GitHub Pages. To get this project up and running, you can follow the deployment link. Or, download the sources files to use this as a template.
 
-Here is the link to my application: https://nasgenius.github.io/homework-week2/
+Here is the link to my application: [Password Generator](https://nasgenius.github.io/homework-week03/)
 
 ## Getting Started
 
